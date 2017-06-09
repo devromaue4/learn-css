@@ -1,0 +1,41 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.buttons li {
+  /*outline: 1px dashed red;*/
+  background: url(../image/the_button_several_state_psd_176713.jpg) -190px -35px no-repeat;
+  display: inline-block;
+  width: 105px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.buttons .button1:hover {
+  background-position: -190px -63px;
+}
+.buttons .button1:active {
+  background-position: -190px -91px;
+}
+
+.buttons .button2 {
+  background-position: -305px -35px;
+}
+.buttons .button2:hover {
+  background-position: -305px -63px;
+}
+.buttons .button2:active {
+  background-position: -305px -91px;
+}
+
+.buttons .button3 {
+  background-position: -190px -125px;
+}
+.buttons .button3:hover {
+  background-position: -190px -153px;
+}
+.buttons .button3:active {
+  background-position: -190px -181px;
+}

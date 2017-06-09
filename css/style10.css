@@ -1,0 +1,85 @@
+body {
+  background: url(../image/subtlenet2.png);
+  font: 1em 'PT Sans', Tahoma, Arial;
+  text-transform: uppercase;
+}
+
+/*********** main menu *************/
+.nav {
+  list-style: none;
+  margin: 30px;
+  opacity: .5;
+  padding: 0;
+  width: 50px;
+
+  transition: opacity .3s ease-in-out;
+}
+
+.nav:hover {
+  opacity: 1;
+}
+
+.nav li {
+  height: 50px;
+  overflow: hidden;
+  width: 50px;
+
+  transition: width .2s ease-in-out, height .2s ease-in-out .2s;
+}
+
+.nav li:hover {
+  height: 175px;
+  width: 200px;
+}
+
+.nav li a {
+  background: #bbb;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  margin: 1px;
+  padding-left: 15px;
+  width: 200px;
+
+  /*transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;*/
+  transition: background .2s ease-in-out;
+}
+
+.nav li a:hover {
+  background: #2fc5ff;
+}
+
+.nav li a:first-child {
+  font-size: 1.1em;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  text-indent: 36px;
+}
+
+.nav li a:first-child:before {
+  content: '';
+  display: block;
+  height: 32px;
+  left: 9px;
+  position: absolute;
+  top: 9px;
+  width: 32px;
+}
+
+.main-menu a:first-child:before {
+  background: url(../image/icons/home.png) center no-repeat;
+}
+.settings a:first-child:before {
+  background: url(../image/icons/settings-w.png) center no-repeat;
+}
+.link a:first-child:before {
+  background: url(../image/icons/link.png) center no-repeat;
+}
+.search a:first-child:before {
+  background: url(../image/icons/search.png) center no-repeat;
+}
