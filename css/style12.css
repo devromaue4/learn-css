@@ -1,0 +1,59 @@
+body {
+  background: url(../image/light_noise_diagonal.png);
+  font: 1em 'PT Sans', Tahoma, Arial;
+  
+}
+
+#wrapper {
+  perspective: 500px;
+  width: 400px;
+  height: 200px;
+}
+
+#container {
+  transition: all .3s;
+  background: rgba(0,0,0,.3);
+  border-radius: 8px;
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 1.2em;
+  height: 150px;
+  line-height: 150px;
+  margin: 80px;
+  text-align: center;
+  width: 250px;
+
+  /*transform: translate(90px,80px) rotate(30deg) scale(2);*/
+  /*transform: skewX(30deg);*/
+  /*transform: rotate(-30deg);*/
+  /*transform-origin: top left;*/
+  /*transform: rotateY(40deg);*/
+  transform: rotate3d(0,1,0,40deg);
+}
+
+#myframe {
+  width: 450px;
+  height: 350px;
+}
+
+#wrapper2 {
+  perspective: 500px;
+  width: 400px;
+  height: 200px;
+}
+
+#container2 {
+  transition: all .3s;
+  background: rgba(0,0,0,.3);
+  border-radius: 8px;
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 1.2em;
+  height: 350px;
+  line-height: 150px;
+  margin: 80px;
+  text-align: center;
+  width: 450px;
+
+  transform: rotate3d(1,1,1,40deg);
+}

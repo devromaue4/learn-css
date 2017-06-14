@@ -1,0 +1,84 @@
+body {
+  background: url(../image/light_noise_diagonal.png);
+  font: 1em Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+@font-face {
+  font-family: PTSans;
+  src: url(../font/PT_Sans/PT_Sans-Web-Regular.ttf);
+  /*src: url(../font/PT_Sans/PT_Sans-Web-Regular.eot);
+  src: local('fb='),
+   url(PT_Sans-Web-Regular.woff) format('woff'),
+   url(PT_Sans-Web-Regular.ttf) format('truetype'),
+   url(PT_Sans-Web-Regular.svg) format('svg');*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: PTSans;
+  src: url(../font/PT_Sans/PT_Sans-Web-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'SignifyLite';
+  src: url('../font/Signify Lite/Web Font (Lite)/signifylite-webfont.eot');
+  src: url('../font/Signify Lite/Web Font (Lite)/signifylite-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/Signify Lite/Web Font (Lite)/signifylite-webfont.woff') format('woff'),
+       url('../font/Signify Lite/Web Font (Lite)/signifylite-webfont.ttf') format('truetype'),
+       url('../font/Signify Lite/Web Font (Lite)/signifylite-webfont.svg#SignifyLite') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+section {
+  margin: 3px 40px;
+  padding: 20px;
+}
+
+section span {
+  font-weight: bold;
+}
+
+.btn, .label {
+  text-shadow: 0 1px 0 white;
+}
+
+.label {
+  font-family: PTSans, Arial;
+  font-size: 2.4em;
+}
+
+.block {
+  background: url(../image/extra_clean_paper.png);
+  border-radius: 5px;
+  box-shadow: 0 3px 20px rgba(0,0,0,.2);
+  border-top: 1px solid rgba(255,255,255,.7);
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  font: 2em SignifyLite;
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+  line-height: 49px;
+  color: #333;
+  border-radius: 3px;
+  transition: all .5s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #eee;
+  background: #333;
+  text-shadow: none;
+  transform: scale(1.2);
+}
